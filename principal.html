@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio de Ficología - UNAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        footer {
+            background-color: #198754;
+            /* Color verde de la navbar */
+            color: white;
+            /* Color del texto */
+            padding: 20px;
+            /* Espaciado interno */
+            position: relative;
+            /* Para el posicionamiento del copyright */
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 10px;
+            /* Ajusta según sea necesario */
+            right: 10px;
+            /* Ajusta según sea necesario */
+            font-size: 12px;
+            /* Tamaño del texto */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-white border-bottom">
+        <div class="container d-flex align-items-center py-2">
+            <a href="principal.html">
+                <img src="log.png" alt="UNAM Logo" class="me-3">
+            </a>
+            <div>
+                <h1 class="h4 mb-0">Universidad Nacional Autónoma de Mexico</h1>
+                <h2 class="h5 mb-0">Laboratorio de Ficología</h2>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="muestra.html">Muestra de los trabajos de laboratorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trabajo.html">Quieres hacer algo en laboratorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gente.html">Gente de laboratorio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-4">
+        <div id="carouselExampleControls" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="servicio.jpg" class="d-block w-100" alt="Muestra de trabajo 1"
+                        style="height: 400px; object-fit: cover;">
+                    <div class="carousel-caption">
+                        <h3>servicio social </h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="libro.jpg" class="d-block w-100" alt="Muestra de trabajo 2"
+                        style="height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="/placeholder.svg?height=400&width=800" class="d-block w-100" alt="Muestra de trabajo 3"
+                        style="height: 400px; object-fit: cover;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <div class="row g-4 mb-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Biología de Cianobacterias</h3>
+                        <p class="card-text">Tiene como objetivo generar e integrar información para el público en
+                            general sobre los distintos proyectos de investigación PAPIIT que han tenido diferentes
+                            departamentos de Biología de la Facultad de Ciencias, por más de 15 años
+                            .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Información sobre el laboratorio</h3>
+                        <p class="card-text">Se tienen alrededor de 339 cepas de Cianobacterias mexicanas las cuales
+                            están a la disposición (por medio de colaboraciones o compra) de investigadores y profesores
+                            de la UNAM y otras instituciones nacionales e internacionales, así como empresas
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title h5">Calendario de actividades</h3>
+                        <p class="card-text">Información sobre próximos eventos, clases y actividades del laboratorio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h5>Información de contacto</h5>
+                <p>Para tener una información al respecto en:</p>
+                <p>Departamento de Biología Comparada</p>
+                <p>3er piso, Edificio B-Biología</p>
+                <p>Teléfono: 5556224837</p>
+                <p>E-mail: sistematicacianos@gmail.com</p>
+            </div>
+
+            <div>
+                <h5>Colaboradores</h5>
+                <p>Dr. Bernardo Águila Salgado</p>
+                <p>Dra. Angela Piedad Caro Borrero</p>
+                <p>Dr. Javier Carmona Jiménez</p>
+                <p>Dra. Miriam Guadalupe Bojorge García</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2024 Osorio Mendoza Bruno. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

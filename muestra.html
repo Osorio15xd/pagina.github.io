@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio de Ficología - UNAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        footer {
+            background-color: #198754;
+            color: white; 
+            padding: 20px;
+            margin-top: auto; 
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+        }
+        .footer-content > div {
+            width: 48%; 
+        }
+        .copyright {
+            font-size: 12px; 
+            text-align: right; 
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: space-between; 
+            padding: 20px; 
+        }
+        .col-md-6 {
+            max-width: 48%; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-white border-bottom">
+        <div class="container d-flex align-items-center py-2">
+            <a href="principal.html">
+                <img src="log.png" alt="UNAM Logo" class="me-3">
+            </a>
+            <div>
+                <h1 class="h4 mb-0">Universidad Nacional Autónoma de Mexico</h1>
+                <h2 class="h5 mb-0">Laboratorio de Ficología</h2>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="muestra.html">Muestra de los trabajos de laboratorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trabajo.html">Quieres hacer algo en laboratorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gente.html">Gente de laboratorio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="col-md-6">
+            <h3>Líneas de investigación</h3>
+            <div class="card">
+                <p>Cianobacterias formadoras de costras biológicas</p>
+                <p>Formación de estromatolitos</p>
+                <p>Cianobacterias subáereas</p>
+                <p>Cianobacterias de ambientes continentales</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Colecciones</h3>
+            <div class="card">
+                <p>Colección de Cultivos de Cianobacterias (CCC)</p>
+                <p>Colección de Exicatas de Cultivos de Cianobacterias (CECC)*</p>
+                <p>Colección en Formol de Cultivos de Cianobacterias (CFCC)*</p>
+                <p>Colecciones incorporadas al Herbario de la Facultad de Ciencias (FCME)</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h5>Información de contacto</h5>
+                <p>Para tener una información al respecto en:</p>
+                <p>Departamento de Biología Comparada</p>
+                <p>3er piso, Edificio B-Biología</p>
+                <p>Teléfono: 5556224837</p>
+                <p>E-mail: sistematicacianos@gmail.com</p>
+            </div>
+
+            <div>
+                <h5>Colaboradores</h5>
+                <p>Dr. Bernardo Águila Salgado</p>
+                <p>Dra. Angela Piedad Caro Borrero</p>
+                <p>Dr. Javier Carmona Jiménez</p>
+                <p>Dra. Miriam Guadalupe Bojorge García</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2024 Osorio Mendoza Bruno. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
